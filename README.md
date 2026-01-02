@@ -26,10 +26,9 @@ https://mandeep-parmar.github.io/spotify-ui-clone/
 - Font Awesome  
 - Google Fonts (Montserrat)
 
----
-
 ## 📁 Project Structure
 
+```
 spotify-ui-clone/
 ├── index.html
 ├── style.css
@@ -41,9 +40,8 @@ spotify-ui-clone/
 │   ├── player_icon1.png
 │   └── ...
 └── README.md
+```
 
-
----
 
 ## 🚀 What I Learned
 
