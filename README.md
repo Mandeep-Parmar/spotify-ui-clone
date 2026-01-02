@@ -28,10 +28,9 @@ https://mandeep-parmar.github.io/spotify-ui-clone/
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 spotify-ui-clone/
-│
 ├── index.html
 ├── style.css
 ├── assets/
@@ -42,6 +41,7 @@ spotify-ui-clone/
 │   ├── player_icon1.png
 │   └── ...
 └── README.md
+
 
 ---
 
