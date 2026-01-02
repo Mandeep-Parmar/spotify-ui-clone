@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="assets/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <!-- NAVBAR -->
+        <div class="nav-bar">
+            <div class="nav-left">
+                <i class="fa-brands fa-spotify"></i>
+            </div>
+
+            <div class="nav-center">
+                <div class="home">
+                    <i class="fa-solid fa-house"></i>
+                </div>
+                <div class="nav-search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="search" placeholder="What do you want to play?">
+                    <i class="fa-solid fa-box-archive library-icon"></i>
+                </div>
+            </div>
+
+            <div class="nav-right">
+                <button>Explore Premium</button>
+
+                <div class="install">
+                    <i class="fa-regular fa-circle-down"></i>
+                    <span>Install App</span>
+                </div>
+                <!-- ONLY FOR MOBILE SEARCH -->
+                <i class="fa-solid fa-magnifying-glass mobile-search"></i>
+                
+                <i class="fa-regular fa-bell"></i>
+                <div class="profile-circle">M</div>
+            </div>
+        </div>
+
+        <!-- MAIN AREA -->
+        <div class="main">
+            <div class="sidebar">
+                <div class="library">
+                    <div class="lib-options">
+                        <div class="options">
+                            <img src="assets/library_icon.png" alt="library">
+                            <a href="#">Your Library</a>
+                        </div>
+                        <div class="icons">
+                            <i class="fa-solid fa-plus"></i>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+
+                    <div class="lib-box">
+                        <div class="box">
+                            <p class="box-p1">Create your first playlist</p>
+                            <p class="box-p2">It's easy, we'll help you</p>
+                            <button class="badge">Create playlist</button>
+                        </div>
+                        <div class="box">
+                            <p class="box-p1">Let's find some podcasts to follow</p>
+                            <p class="box-p2">We'll keep you updated on new episodes</p>
+                            <button class="badge">Browse podcasts</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-content">
+                <div class="content-header">
+                    <div class="filters">
+                        <div class="filter-btn active">All</div>
+                        <div class="filter-btn">Music</div>
+                        <div class="filter-btn">Podcast</div>
+                    </div>
+                </div>
+
+                <!-- SECTION 1 -->
+                <section class="content-section">
+                    <h2 class="section-title">Recently played</h2>
+
+                    <div class="card-container horizontal-scroll">
+                        <div class="card">
+                            <img src="assets/c1.jpg" class="card-img">
+                            <p class="card-title">Chill Hits</p>
+                            <p class="card-info">Relax & unwind</p>
+                        </div>
+                        <div class="card">
+                            <img src="assets/c2.jpg" class="card-img">
+                            <p class="card-title">Workout</p>
+                            <p class="card-info">Boost your energy</p>
+                        </div>
+                        <div class="card">
+                            <img src="assets/c3.jpg" class="card-img">
+                            <p class="card-title">Focus Flow</p>
+                            <p class="card-info">Stay productive</p>
+                        </div>
+                        <div class="card">
+                            <img src="assets/c4.jpg" class="card-img">
+                            <p class="card-title">Lo-Fi Beats</p>
+                            <p class="card-info">Chill vibes</p>
+                        </div>
+                        <div class="card">
+                            <img src="assets/c5.jpg" class="card-img">
+                            <p class="card-title">Evening Vibes</p>
+                            <p class="card-info">Unwind</p>
+                        </div>
+                        <div class="card">
+                            <img src="assets/c6.jpg" class="card-img">
+                            <p class="card-title">Sleep</p>
+                            <p class="card-info">Calm nights</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SECTION 2 -->
+                <section class="content-section">
+                    <h2 class="section-title">Made For You</h2>
+
+                    <div class="card-container horizontal-scroll">
+                        <div class="card">
+                            <img src="assets/c11.jpg" class="card-img">
+                            <p class="card-title">Daily Mix</p>
+                            <p class="card-info">Your favorites</p>
+                        </div>
+                        <div class="card">
+                            <img src="assets/c12.jpg" class="card-img">
+                            <p class="card-title">Release Radar</p>
+                            <p class="card-info">New release</p>
+                        </div>
+                        <div class="card">
+                            <img src="assets/c16.jpg" class="card-img">
+                            <p class="card-title">Discover Weekly</p>
+                            <p class="card-info">Fresh finds</p>
+                        </div>
+                        <div class="card">
+                            <img src="assets/c13.jpg" class="card-img">
+                            <p class="card-title">Indie Mix</p>
+                            <p class="card-info">Indie vibes</p>
+                        </div>
+                        <div class="card">
+                            <img src="assets/c14.jpg" class="card-img">
+                            <p class="card-title">Pop Mix</p>
+                            <p class="card-info">Top pop</p>
+                        </div>
+                        <div class="card">
+                            <img src="assets/c15.jpg" class="card-img">
+                            <p class="card-title">Mood Booster</p>
+                            <p class="card-info">Feel good</p>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!-- SECTION 3 -->
+                <section class="content-section">
+                    <h2 class="section-title">Featured charts</h2>
+
+                    <div class="card-container horizontal-scroll">
+                        <div class="card">
+                            <img src="assets/c21.jpg" class="card-img">
+                            <p class="card-title">Top Songs Global</p>
+                            <p class="card-info">Weekly Music Charts</p>
+                        </div>
+                        <div class="card">
+                            <img src="assets/c22.jpg" class="card-img">
+                            <p class="card-title">Top Songs India</p>
+                            <p class="card-info">Weekly Music Charts</p>
+                        </div>
+                        <div class="card">
+                            <img src="assets/c23.jpg" class="card-img">
+                            <p class="card-title">Top 50</p>
+                            <p class="card-info">Global</p>
+                        </div>
+                        <div class="card">
+                            <img src="assets/c24.jpg" class="card-img">
+                            <p class="card-title">Top 50</p>
+                            <p class="card-info">India</p>
+                        </div>
+                        <div class="card">
+                            <img src="assets/c25.jpg" class="card-img">
+                            <p class="card-title">Trending Now</p>
+                            <p class="card-info">Weekly Music Charts</p>
+                        </div>
+                    </div>
+                </section>
+
+                <footer class="main-footer">
+                    <div class="footer-left">
+                        © 2026 Spotify Clone · Built by Mandeep Parmar
+                    </div>
+
+                    <div class="footer-right">
+                        <a href="#">Privacy</a>
+                        <a href="#">Terms</a>
+                        <a href="#">Cookies</a>
+                    </div>
+                </footer>
+            </div>
+        </div>
+
+        <!-- MUSIC PLAYER -->
+        <div class="music-player">
+            <div class="player-left">
+                <img src="assets/c1.jpg" class="player-img">
+                <div class="player-text">
+                    <a class="player-title" href="#">Chill Hits</a>
+                    <a class="player-artist" href="#">Various Artists</a>
+                </div>
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            
+            <div class="player-center">
+                <div class="player-control">
+                    <img src="assets/player_icon1.png" class="player-icons">
+                    <img src="assets/player_icon2.png" class="player-icons">
+                    <img src="assets/player_icon3.png" class="player-icons play">
+                    <img src="assets/player_icon4.png" class="player-icons">
+                    <img src="assets/player_icon5.png" class="player-icons">
+                </div>
+
+                <div class="player-progress">
+                    <span>0.45</span>
+                    <input type="range" class="progress-bar">
+                    <span>3.30</span>
+                </div>
+            </div>
+
+            <div class="player-right">
+                <i class="fa-solid fa-list-ul"></i>
+                <i class="fa-solid fa-laptop"></i>
+                <div class="player-volume">
+                    <i class="fa-solid fa-volume-high"></i>
+                    <input type="range" class="volume-bar">
+                </div>
+                <i class="fa-solid fa-expand"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
